@@ -1,4 +1,4 @@
-class InstructionSerializer < ActiveModel::Serializer
+class DirectionSerializer < ActiveModel::Serializer
   attributes :id, :recipe_id, :description, :time, :do_ahead
 
   belongs_to :recipe

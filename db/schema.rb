@@ -15,14 +15,7 @@ ActiveRecord::Schema.define(version: 20180313224557) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "ingredients", force: :cascade do |t|
-    t.string "name"
-    t.string "search_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "instructions", force: :cascade do |t|
+  create_table "directions", force: :cascade do |t|
     t.integer "recipe_id"
     t.string "description"
     t.integer "time"
@@ -31,17 +24,17 @@ ActiveRecord::Schema.define(version: 20180313224557) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "meals", force: :cascade do |t|
-    t.integer "user_id"
-    t.string "name"
+  create_table "ingredients", force: :cascade do |t|
+    t.integer "recipe_id"
+    t.string "description"
+    t.string "search_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
-  create_table "recipe_ingredients", force: :cascade do |t|
-    t.integer "recipe_id"
-    t.integer "ingredient_id"
-    t.string "volume"
+  create_table "meals", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

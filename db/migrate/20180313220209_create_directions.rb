@@ -1,6 +1,6 @@
-class CreateInstructions < ActiveRecord::Migration[5.1]
+class CreateDirections < ActiveRecord::Migration[5.1]
   def change
-    create_table :instructions do |t|
+    create_table :directions do |t|
       t.integer :recipe_id
       t.string :description
       t.integer :time
