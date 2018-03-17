@@ -1,6 +1,6 @@
 RECIPES = [
   {name: 'Creamy Tuscan Garlic Chicken',
-  course: 'main',
+  course: 'Main',
   servings: '4-6',
   prep_time: 10,
   cook_time: 15,
@@ -25,7 +25,7 @@ RECIPES = [
   },
 
   {name: 'Avocado and Tomato Salad',
-  course: 'side',
+  course: 'Side',
   servings: '6',
   prep_time: 10,
   cook_time: 0,
@@ -49,7 +49,7 @@ RECIPES = [
   },
 
   {name: 'Easy Oven Roasted Potatoes',
-  course: 'side',
+  course: 'Side',
   servings: '8',
   prep_time: 10,
   cook_time: 40,
@@ -70,7 +70,7 @@ RECIPES = [
   },
 
   {name: 'Asian Salmon in Foil',
-  course: 'main',
+  course: 'Main',
   servings: '4',
   prep_time: 10,
   cook_time: 20,
@@ -100,7 +100,7 @@ RECIPES = [
   },
 
   {name: 'Easy Lo Mein',
-  course: 'side',
+  course: 'Side',
   servings: '4',
   prep_time: 10,
   cook_time: 15,
@@ -132,7 +132,7 @@ RECIPES = [
   },
 
   {name: '5 Ingredient Coconut Curry',
-  course: 'main',
+  course: 'Main',
   servings: '3-4',
   prep_time: 5,
   cook_time: 10,
@@ -152,6 +152,80 @@ RECIPES = [
     {description: 'Add the curry paste to the pan and whisk it until it combines with the coconut milk. Add the chickpeas.', time: 1, do_ahead: false},
     {description: 'Bring to a slight boil and add the cornstarch.', time: 3, do_ahead: false},
     {description: 'Boil for about a minute, then reduce heat and let cool slightly. Sauce will thicken as the mixture cools.', time: 1, do_ahead: false}
+    ]
+  },
+
+  {name: '6 Ingredient Orange Chicken',
+  course: 'Main',
+  servings: '6',
+  prep_time: 5,
+  cook_time: 25,
+  total_time: 30,
+  url: 'https://www.yummly.com/#recipe/6-Ingredient-Orange-Chicken-1614114',
+  ingredients: [
+    {description: '1.25 pounds chicken breast fillets (about 3 breasts), cut into cubes', search_name: 'chicken'},
+    {description: '3/4 cup flour (we used white whole wheat)', search_name: 'flour'},
+    {description: '3 tablespoons coconut oil', search_name: 'coconut oil'},
+    {description: '2 navel oranges', search_name: 'orange'},
+    {description: '1/2 cup barbecue sauce', search_name: 'barbecue sauce'},
+    {description: '2 tablespoon lite soy sauce, optional tamari', search_name: 'soy sauce'}
+  ],
+  directions: [
+    {description: 'Cut chicken into cubes', time: 3, do_ahead: true},
+    {description: 'In a gallon-sized ziplock bag, add chicken cubes and flour. Shake vigorously until chicken is well-coated. Remove chicken and shake off excess flour.', time: 2, do_ahead: false},
+    {description: 'Add oil to a large skillet or wok, turn to medium heat, add cubed chicken and cook until lightly golden on all sides. Remove chicken and place on a paper towel. Drain any remaining oil from skillet.', time: 10, do_ahead: false},
+    {description: 'Zest oranges and add to a mixing bowl. Squeeze juice from oranges, discard seeds, and add to the same bowl. Add barbecue and soy sauce and whisk to combine.', time: 4, do_ahead: true},
+    {description: 'Add chicken and sauce mixture to the skillet. Toss to coat chicken. Cook on medium heat until sauce has thickened to desired consistency, about 10 minutes. Remove chicken with a slotted spoon and place on a platter.', time: 10, do_ahead: false},
+    {description: 'Garnish with green onion slices, if desired. Add remaining sauce from the skillet to a bowl and serve along side chicken.', time: 1, do_ahead: false}
+    ]
+  },
+
+  {name: 'Korean Style Pork Chops',
+  course: 'Main',
+  servings: '4',
+  prep_time: 25,
+  cook_time: 20,
+  total_time: 45,
+  url: 'https://www.jocooks.com/recipes/korean-style-pork-chops/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '4 pork chops', search_name: 'pork chops'},
+    {description: '1 tbsp olive oil', search_name: 'olive oil'},
+    {description: '1/4 cup soy sauce low sodium', search_name: 'soy sauce'},
+    {description: '2 tbsp honey', search_name: 'honey'},
+    {description: '4 cloves garlic minced', search_name: 'garlic'},
+    {description: '1 tsp sesame oil', search_name: 'sesame oil'},
+    {description: '1 tsp ginger minced', search_name: 'ginger'},
+    {description: '2 tsp sriracha sauce', search_name: 'sriracha'},
+    {description: 'black pepper to taste', search_name: 'black pepper'}
+  ],
+  directions: [
+    {description: 'Preheat oven to 400 F degrees.', time: 1, do_ahead: true},
+    {description: 'In a medium size bowl whisk together the soy sauce, honey, garlic, ginger, sesame oil and sriracha sauce.', time: 4, do_ahead: true},
+    {description: 'Pour over pork chops and let marinade for about 20 minutes.', time: 20, do_ahead: false},
+    {description: 'Heat the olive oil in a large skillet on medium high heat. Add pork chops, without marinade, and cook for about 5 minutes for the first side, or until it gets a nice brownish color.', time: 5, do_ahead: false},
+    {description: 'Flip the pork chops and pour the remaining marinade over them. Cook another 5 min on this side.', time: 5, do_ahead: false},
+    {description: 'Place the skillet in the oven to finish cooking them. Roast for about 10 minutes, or until pork chops are completely cooked through.', time: 10, do_ahead: false},
+    ]
+  },
+
+  {name: 'Bubba Gump Shrimp',
+  course: 'Main',
+  servings: '4',
+  prep_time: 10,
+  cook_time: 10,
+  total_time: 20,
+  url: 'https://www.yummly.com/#recipe/Bubba-Gump-Shrimp-2312171',
+  ingredients: [
+    {description: '1/2 cup butter', search_name: 'butter'},
+    {description: '1 tablespoon oregano', search_name: 'oregano'},
+    {description: '2 tablespoons chopped garlic', search_name: 'garlic'},
+    {description: '1 teaspoon crushed cayenne pepper', search_name: 'cayenne'},
+    {description: '24 pieces large shrimp', search_name: 'shrimp'}
+  ],
+  directions: [
+    {description: 'Peel and chop garlic', time: 10, do_ahead: true},
+    {description: 'Put all ingredient into large skillet except shrimp. Cook on medium heat till butter is melted and hot.', time: 5, do_ahead: false},
+    {description: 'Drop in shrimp. Stir occasionally. Cook until shrimp are pink and just done, about 5 minutes.', time: 5, do_ahead: false}
     ]
   }
 ]
