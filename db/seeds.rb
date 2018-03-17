@@ -265,3 +265,5 @@ def createRecipes
 end
 
 createRecipes
+
+User.create(username: "dummyuser", password: "dummypassword")

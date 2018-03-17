@@ -1,10 +1,10 @@
 class RecipeMealsController < ApplicationController
   before_action :set_recipe_meal, only: [:update, :destroy]
 
-  # def index
-  #   recipe_meals = RecipeMeal.all
-  #   render json: recipe_meals, status: 200
-  # end
+  def index
+    recipe_meals = RecipeMeal.all
+    render json: recipe_meals, status: 200
+  end
 
   def create
     recipe_meal = RecipeMeal.create(recipe_meal_params)
