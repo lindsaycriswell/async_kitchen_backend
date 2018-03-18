@@ -227,6 +227,89 @@ RECIPES = [
     {description: 'Put all ingredient into large skillet except shrimp. Cook on medium heat till butter is melted and hot.', time: 5, do_ahead: false},
     {description: 'Drop in shrimp. Stir occasionally. Cook until shrimp are pink and just done, about 5 minutes.', time: 5, do_ahead: false}
     ]
+  },
+
+  {name: 'Broccoli Tots',
+  course: 'Side',
+  servings: '4',
+  prep_time: 15,
+  cook_time: 30,
+  total_time: 45,
+  url: 'http://www.thetwobiteclub.com/2015/01/broccoli-tots.html?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '1 bunch of broccoli, cut into equal sized florets (around 3-4 cups)', search_name: 'broccoli'},
+    {description: '1 cup sharp cheddar cheese, shredded', search_name: 'cheddar cheese'},
+    {description: '1/3 cup onion, finely chopped', search_name: 'onion'},
+    {description: '1/2 cup breadcrumbs', search_name: 'breadcrumbs'},
+    {description: '2 eggs', search_name: 'eggs'},
+    {description: 'salt', search_name: 'salt'},
+    {description: 'pepper to taste', search_name: 'black pepper'}
+  ],
+  directions: [
+    {description: 'Preheat your oven to 400 degrees F.', time: 1, do_ahead: true},
+    {description: 'Chop broccoli and onions', time: 10, do_ahead: true},
+    {description: 'Grate cheese.', time: 4, do_ahead: true},
+    {description: '2. Pour 1 inch of water into a saucepan; bring to a boil. Place the broccoli into the boiling water, cover, and reduce the heat to medium. Cook the broccoli for 5-6 minutes, or until it can easily be pierced by a fork. Drain the broccoli and set aside to cool slightly.', time: 8, do_ahead: false},
+    {description: 'Lay the broccoli out onto paper towels and cover with more paper towels. Press down firmly on the broccoli to absorb as much moisture as you can.', time: 3, do_ahead: false},
+    {description: "In a large bowl, combine all of the ingredients and season with salt and pepper. Stir everything together until well mixed. Fill each muffin cup in a mini muffin tin to the top, pushing down on the filling with your spoon so it's nice and compacted.", time: 4, do_ahead: false},
+    {description: "Bake for 18-20 minutes in preheated oven. The top will be starting to golden. To easily remove from the pan (without scratching it to death), run a plastic knife around the edges of each tot and they should come out easier.", time: 20, do_ahead: false},
+    ]
+  },
+
+  {name: 'Warm Greek Pasta',
+  course: 'Main',
+  servings: '4-6',
+  prep_time: 5,
+  cook_time: 10,
+  total_time: 15,
+  url: 'http://thewoodenskillet.com/warm-greek-pasta/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '1 box fettuccine', search_name: 'fettuccine'},
+    {description: '5 Roma tomatoes, diced', search_name: 'tomato'},
+    {description: '4-6 oz Feta cheese, diced or crumbled', search_name: 'feta'},
+    {description: '1 heaping cup of pitted kalamata olives', search_name: 'kalamata olives'},
+    {description: '1 Tablespoon finely chopped shallots', search_name: 'shallots'},
+    {description: '¼ cup olive oil', search_name: 'olive oil'},
+    {description: '1½ Teaspoon kosher salt', search_name: 'salt'},
+    {description: 'pinch of ground black pepper', search_name: 'black pepper'}
+  ],
+  directions: [
+    {description: 'In a large pot, bring water to boil.', time: 1, do_ahead: false},
+    {description: 'Chop tomatoes and shallots', time: 4, do_ahead: true},
+    {description: 'Add fettuccine noodles and cook al dente.', time: 7, do_ahead: false},
+    {description: 'Drain and return to pot.', time: 1, do_ahead: false},
+    {description: 'Add olive oil immediately and toss.', time: 1, do_ahead: false},
+    {description: "Add remaining ingredients and toss.", time: 1, do_ahead: false}
+    ]
+  },
+
+  {name: 'Spaghetti Carbonara',
+  course: 'Main',
+  servings: '4',
+  prep_time: 10,
+  cook_time: 15,
+  total_time: 25,
+  url: 'https://www.yummly.com/#recipe/Spaghetti-Carbonara-2200772',
+  ingredients: [
+    {description: '8 ounces spaghetti', search_name: 'spaghetti'},
+    {description: '2 large eggsd', search_name: 'eggs'},
+    {description: '1/2 cup freshly grated parmesan', search_name: 'parmesan'},
+    {description: '4 slices bacon, diced', search_name: 'bacon'},
+    {description: '4 cloves garlic, minced', search_name: 'garlic'},
+    {description: 'Kosher salt', search_name: 'salt'},
+    {description: 'pinch of ground black pepper', search_name: 'black pepper'},
+    {description: '2 tablespoons chopped fresh parsley leaves', search_name: 'parsley'}
+  ],
+  directions: [
+    {description: 'In a large pot, bring water to boil.', time: 1, do_ahead: false},
+    {description: 'Chop tomatoes and garlic', time: 4, do_ahead: true},
+    {description: 'Grate parmesan', time: 5, do_ahead: true},
+    {description: 'Cook pasta according to package instructions; reserve 1/2 cup water and drain well.', time: 6, do_ahead: false},
+    {description: 'In a small bowl, whisk together eggs and Parmesan; set aside.', time: 1, do_ahead: true},
+    {description: 'Heat a large skillet over medium high heat. Add bacon and cook until brown and crispy, about 6-8 minutes; reserve excess fat.', time: 6, do_ahead: false},
+    {description: "Stir in garlic until fragrant, about 1 minute. Reduce heat to low.", time: 1, do_ahead: false},
+    {description: "Working quickly, stir in pasta and egg mixture, and gently toss to combine; season with salt and pepper, to taste. Add reserved pasta water, one tablespoon at a time, until desired consistency is reached. Garnish with parsley", time: 1, do_ahead: false}
+    ]
   }
 ]
 
