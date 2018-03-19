@@ -26,6 +26,12 @@ class MealsController < ApplicationController
     render json: @meal, status: 200
   end
 
+  def remove_recipe
+    RecipeMeal.find_by(recipe_id: params["recipe_id"], meal_id: params["meal_id"]).destroy
+
+    render json: {message: "IT WORKEDDD"}
+  end
+
   private
   def meal_params
     params.permit(:id, :user_id, :name)
