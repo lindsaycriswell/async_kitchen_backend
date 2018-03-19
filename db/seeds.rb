@@ -310,9 +310,78 @@ RECIPES = [
     {description: "Stir in garlic until fragrant, about 1 minute. Reduce heat to low.", time: 1, do_ahead: false},
     {description: "Working quickly, stir in pasta and egg mixture, and gently toss to combine; season with salt and pepper, to taste. Add reserved pasta water, one tablespoon at a time, until desired consistency is reached. Garnish with parsley", time: 1, do_ahead: false}
     ]
+  },
+
+  {name: 'Parmesan Roasted Green Beans',
+  course: 'Side',
+  servings: '4',
+  prep_time: 10,
+  cook_time: 15,
+  total_time: 25,
+  url: 'https://www.itisakeeper.com/679/parmesan-roasted-green-beans/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '2 cups fresh green beans', search_name: 'green beans'},
+    {description: '2 Tbsp olive oil', search_name: 'olive oil'},
+    {description: 'Salt', search_name: 'salt'},
+    {description: 'Pepper', search_name: 'black pepper'},
+    {description: 'Grated Parmesan cheese', search_name: 'parmesan'}
+  ],
+  directions: [
+    {description: 'Preheat the oven to 400 degrees.', time: 5, do_ahead: true},
+    {description: 'Place the green beans in a large bowl. Drizzle olive oil over the green beans. Sprinkle with salt and pepper. Toss the green beans to coat them evenly. Sprinkle grated Parmesan cheese over the green beans. Toss again to coat the beans evenly with the Parmesan cheese.', time: 5, do_ahead: true},
+    {description: 'Lay the green beans in a single layer on a baking sheet. Bake for 15 minutes or until the cheese melts and the beans turn a light golden brown.', time: 15, do_ahead: false}
+    ]
+  },
+
+  {name: 'Easy Roasted Lemon Garlic Shrimp',
+  course: 'Main',
+  servings: '4',
+  prep_time: 10,
+  cook_time: 10,
+  total_time: 20,
+  url: 'https://www.skinnytaste.com/easy-roasted-lemon-garlic-shrimp/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '1 1/2 lbs shelled and deveined jumbo shrimp (36)', search_name: 'shrimp'},
+    {description: '2 cloves garlic, minced', search_name: 'garlic'},
+    {description: '1 tablespoon olive oil', search_name: 'olive oil'},
+    {description: '1/4 teaspoon crushed red pepper flakes', search_name: 'crushed red pepper'},
+    {description: 'Juice of 1 lemon', search_name: 'lemon'},
+    {description: '1 tablespoon chopped parsley', search_name: 'parsley'},
+  ],
+  directions: [
+    {description: 'Preheat the oven to 400F. Spray 2 large nonstick baking trays with cooking spray.', time: 2, do_ahead: true},
+    {description: 'Chop garlic and parsley', time: 3, do_ahead: true},
+    {description: 'Combine the shrimp, garlic, oil and crushed red pepper together in a bowl and stir to combine.', time: 5, do_ahead: true},
+    {description: 'Arrange the shrimp on a baking sheet in a single layer. Roast 6 to 8 minutes or until the shrimp turns opaque.', time: 8, do_ahead: false},
+    {description: 'Squeeze lemon over the shrimp and garnish with parsley.', time: 2, do_ahead: false}
+    ]
+  },
+
+  {name: 'Chicken Pesto Bake',
+  course: 'Main',
+  servings: '4',
+  prep_time: 15,
+  cook_time: 15,
+  total_time: 30,
+  url: 'https://www.skinnytaste.com/skinny-chicken-pesto-bake/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '2 (16 oz total) boneless, skinless chicken breasts', search_name: 'chicken'},
+    {description: 'Kosher salt', search_name: 'salt'},
+    {description: 'Fresh pepper', search_name: 'black pepper'},
+    {description: '4 teaspoons pesto', search_name: 'pesto'},
+    {description: '1 medium tomatoes, sliced thin', search_name: 'tomato'},
+    {description: '6 tbsp (1.5 oz) shredded mozzarella cheese', search_name: 'mozzarella'},
+    {description: '2 teaspoons grated parmesan cheese', search_name: 'parmesan'}
+    ],
+  directions: [
+    {description: 'Preheat the oven to 400° F. Line baking sheet with foil or parchment if desired for easy clean-up.', time: 1, do_ahead: true},
+    {description: 'Wash chicken and dry with a paper towel. Slice chicken breast horizontally to create 4 thinner cutlets. Season lightly with salt and fresh pepper.', time: 7, do_ahead: true},
+    {description: 'Place the chicken on prepared baking sheet. Spread about 1 teaspoon of pesto over each piece of chicken.', time: 2, do_ahead: false},
+    {description: 'Bake for 15 minutes or until chicken is no longer pink in center.', time: 15, do_ahead: false},
+    {description: 'Remove from oven; top with tomatoes, mozzarella and parmesan cheese. Bake for an additional 3 to 5 minutes or until cheese is melted.', time: 5, do_ahead: false}
+    ]
   }
 ]
-
 
 def createRecipes
   recID = 1
