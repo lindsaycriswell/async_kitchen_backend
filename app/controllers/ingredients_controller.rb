@@ -2,10 +2,10 @@ class IngredientsController < ApplicationController
   # before_action :set_ingredient, only: [:show]
   #   # :update, :destroy]
   #
-  # def index
-  #   ingredients = Ingredient.all
-  #   render json: ingredients, status: 200
-  # end
+  def index
+    ingredients = Ingredient.all
+    render json: ingredients, status: 200
+  end
   #
   # # def create
   # #   ingredient = Ingredient.create(ingredient_params)
