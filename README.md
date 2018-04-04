@@ -19,7 +19,7 @@ A cooking time management app with timed recipe instructions to complete multipl
 * React/Redux
 
 ## Backend Setup
-1. Clone this repo - https://github.com/lindsaycriswell/kitchen-sync-frontend
+1. Clone this repo - https://github.com/lindsaycriswell/kitchen-sync-backend
 2. Install Gems `bundle install`
 3. Set up Database `rake db:create`, then run `rake db:migrate`
 4. Seed Database `rake db:seed`
