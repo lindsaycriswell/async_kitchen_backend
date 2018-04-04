@@ -5,7 +5,7 @@ A cooking time management app with timed recipe instructions to complete multipl
 
 [Kitchen Sync Back End Repo](https://github.com/lindsaycriswell/kitchen-sync-backend)
 
-
+![Kitchen Sync Homepage](kitchen-sync-homepage.jpg)
 
 
 
