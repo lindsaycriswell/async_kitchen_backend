@@ -2,8 +2,9 @@
 A cooking time management app with timed recipe instructions to complete multiple dishes simultaneously. Ruby on Rails back end, JavaScript/React front end, incorporating a customized recipe API and JavaScript date object algorithms. 
 
 [Kitchen Sync Front End Repo](https://github.com/lindsaycriswell/kitchen-sync-frontend)
-
 [Kitchen Sync Back End Repo](https://github.com/lindsaycriswell/kitchen-sync-backend)
+
+
 
 
 
