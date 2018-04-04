@@ -1,6 +1,6 @@
 RECIPES = [
   {name: 'Creamy Tuscan Garlic Chicken',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4-6',
   prep_time: 10,
   cook_time: 15,
@@ -25,7 +25,7 @@ RECIPES = [
   },
 
   {name: 'Avocado and Tomato Salad',
-  course: 'Side',
+  course: 'Side Dish',
   servings: '6',
   prep_time: 10,
   cook_time: 0,
@@ -49,7 +49,7 @@ RECIPES = [
   },
 
   {name: 'Easy Oven Roasted Potatoes',
-  course: 'Side',
+  course: 'Side Dish',
   servings: '8',
   prep_time: 10,
   cook_time: 40,
@@ -70,7 +70,7 @@ RECIPES = [
   },
 
   {name: 'Asian Salmon in Foil',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4',
   prep_time: 10,
   cook_time: 20,
@@ -100,7 +100,7 @@ RECIPES = [
   },
 
   {name: 'Easy Lo Mein',
-  course: 'Side',
+  course: 'Side Dish',
   servings: '4',
   prep_time: 10,
   cook_time: 15,
@@ -132,7 +132,7 @@ RECIPES = [
   },
 
   {name: '5 Ingredient Coconut Curry',
-  course: 'Main',
+  course: 'Main Course',
   servings: '3-4',
   prep_time: 5,
   cook_time: 10,
@@ -156,7 +156,7 @@ RECIPES = [
   },
 
   {name: '6 Ingredient Orange Chicken',
-  course: 'Main',
+  course: 'Main Course',
   servings: '6',
   prep_time: 5,
   cook_time: 25,
@@ -181,7 +181,7 @@ RECIPES = [
   },
 
   {name: 'Korean Style Pork Chops',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4',
   prep_time: 25,
   cook_time: 20,
@@ -209,7 +209,7 @@ RECIPES = [
   },
 
   {name: 'Bubba Gump Shrimp',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4',
   prep_time: 10,
   cook_time: 10,
@@ -230,7 +230,7 @@ RECIPES = [
   },
 
   {name: 'Broccoli Tots',
-  course: 'Side',
+  course: 'Side Dish',
   servings: '4',
   prep_time: 15,
   cook_time: 30,
@@ -249,7 +249,7 @@ RECIPES = [
     {description: 'Preheat your oven to 400 degrees F.', time: 1, do_ahead: true},
     {description: 'Chop broccoli and onions', time: 10, do_ahead: true},
     {description: 'Grate cheese.', time: 4, do_ahead: true},
-    {description: '2. Pour 1 inch of water into a saucepan; bring to a boil. Place the broccoli into the boiling water, cover, and reduce the heat to medium. Cook the broccoli for 5-6 minutes, or until it can easily be pierced by a fork. Drain the broccoli and set aside to cool slightly.', time: 8, do_ahead: false},
+    {description: 'Pour 1 inch of water into a saucepan; bring to a boil. Place the broccoli into the boiling water, cover, and reduce the heat to medium. Cook the broccoli for 5-6 minutes, or until it can easily be pierced by a fork. Drain the broccoli and set aside to cool slightly.', time: 8, do_ahead: false},
     {description: 'Lay the broccoli out onto paper towels and cover with more paper towels. Press down firmly on the broccoli to absorb as much moisture as you can.', time: 3, do_ahead: false},
     {description: "In a large bowl, combine all of the ingredients and season with salt and pepper. Stir everything together until well mixed. Fill each muffin cup in a mini muffin tin to the top, pushing down on the filling with your spoon so it's nice and compacted.", time: 4, do_ahead: false},
     {description: "Bake for 18-20 minutes in preheated oven. The top will be starting to golden. To easily remove from the pan (without scratching it to death), run a plastic knife around the edges of each tot and they should come out easier.", time: 20, do_ahead: false},
@@ -257,7 +257,7 @@ RECIPES = [
   },
 
   {name: 'Warm Greek Pasta',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4-6',
   prep_time: 5,
   cook_time: 10,
@@ -284,7 +284,7 @@ RECIPES = [
   },
 
   {name: 'Spaghetti Carbonara',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4',
   prep_time: 10,
   cook_time: 15,
@@ -292,7 +292,7 @@ RECIPES = [
   url: 'https://www.yummly.com/#recipe/Spaghetti-Carbonara-2200772',
   ingredients: [
     {description: '8 ounces spaghetti', search_name: 'spaghetti'},
-    {description: '2 large eggsd', search_name: 'eggs'},
+    {description: '2 large eggs', search_name: 'eggs'},
     {description: '1/2 cup freshly grated parmesan', search_name: 'parmesan'},
     {description: '4 slices bacon, diced', search_name: 'bacon'},
     {description: '4 cloves garlic, minced', search_name: 'garlic'},
@@ -313,7 +313,7 @@ RECIPES = [
   },
 
   {name: 'Parmesan Roasted Green Beans',
-  course: 'Side',
+  course: 'Side Dish',
   servings: '4',
   prep_time: 10,
   cook_time: 15,
@@ -334,7 +334,7 @@ RECIPES = [
   },
 
   {name: 'Easy Roasted Lemon Garlic Shrimp',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4',
   prep_time: 10,
   cook_time: 10,
@@ -358,7 +358,7 @@ RECIPES = [
   },
 
   {name: 'Chicken Pesto Bake',
-  course: 'Main',
+  course: 'Main Course',
   servings: '4',
   prep_time: 15,
   cook_time: 15,
@@ -379,6 +379,136 @@ RECIPES = [
     {description: 'Place the chicken on prepared baking sheet. Spread about 1 teaspoon of pesto over each piece of chicken.', time: 2, do_ahead: false},
     {description: 'Bake for 15 minutes or until chicken is no longer pink in center.', time: 15, do_ahead: false},
     {description: 'Remove from oven; top with tomatoes, mozzarella and parmesan cheese. Bake for an additional 3 to 5 minutes or until cheese is melted.', time: 5, do_ahead: false}
+    ]
+  },
+
+  {name: 'Asparagus with Bacon and Mushrooms',
+  course: 'Side Dish',
+  servings: '6',
+  prep_time: 10,
+  cook_time: 10,
+  total_time: 20,
+  url: 'https://www.manilaspoon.com/2017/05/asparagus-with-bacon-and-mushrooms.html?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '1 Tablespoon Olive Oil', search_name: 'olive oil'},
+    {description: '5 Bacon strips, chopped', search_name: 'bacon'},
+    {description: '4 Garlic cloves, peeled and crushed', search_name: 'garlic'},
+    {description: '8-12 oz. Mushrooms, sliced', search_name: 'mushrooms'},
+    {description: '1 lb. Asparagus, sliced', search_name: 'asparagus'},
+    {description: 'Salt', search_name: 'salt'},
+    {description: 'Pepper', search_name: 'black pepper'}
+    ],
+  directions: [
+    {description: 'Chop bacon, garlic, mushrooms, and asparagus', time: 10, do_ahead: true},
+    {description: 'Heat a little oil in a large skillet or pan. Add the chopped bacon and cook until crisp. Transfer to another plate.', time: 5, do_ahead: false},
+    {description: 'Quickly saute the garlic in the bacon fat.', time: 1, do_ahead: false},
+    {description: 'Add the mushrooms and cook until tender.', time: 2, do_ahead: false},
+    {description: 'Add the asparagus and cover and cook until the asparagus is crisp-tender about 2-3 minutes depending on how thick your asparagus spears are. Season with salt and pepper (or soy sauce!!) Serve immediately!', time: 2, do_ahead: false}
+    ]
+  },
+
+  {name: 'Spring Greens Strawberry and Feta Salad',
+  course: 'Side Dish',
+  servings: '4',
+  prep_time: 10,
+  cook_time: 0,
+  total_time: 10,
+  url: 'https://www.rotinrice.com/spring-greens-strawberry-and-feta-salad/',
+  ingredients: [
+    {description: '1 package spring green salad mix (5 oz/140g)', search_name: 'spring mix'},
+    {description: '10 strawberries (hulled and sliced)', search_name: 'strawberries'},
+    {description: '½ cup crumbled feta cheese (70g)', search_name: 'feta'},
+    {description: '2 tbsp balsamic vinegar', search_name: 'balsamic vinegar'},
+    {description: '2 tbsp extra virgin olive oil', search_name: 'olive oil'},
+    {description: '1 tsp sugar', search_name: 'sugar'},
+    {description: '¼ tsp salt', search_name: 'salt'}
+    ],
+  directions: [
+    {description: 'In an empty bottle, combine all dressing ingredients (oil, vinegar, sugar, salt). Put the lid on and give it a good shake.', time: 3, do_ahead: true},
+    {description: 'Place spring greens in a salad bowl. Drizzle vinaigrette over greens and toss well to coat.', time: 3, do_ahead: true},
+    {description: 'Add sliced strawberries and feta cheese. Give it a light toss.', time: 4, do_ahead: true}
+    ]
+  },
+
+  {name: 'Asparagus Frittata',
+  course: 'Main Course',
+  servings: '4',
+  prep_time: 5,
+  cook_time: 30,
+  total_time: 35,
+  url: 'https://www.yummly.com/#recipe/Asparagus-Frittata-1114509',
+  ingredients: [
+    {description: '8 large eggs', search_name: 'eggs'},
+    {description: '4 large egg whites', search_name: 'egg whites'},
+    {description: '1 cup (packed) basil leaves, thinly sliced', search_name: 'basil'},
+    {description: 'Kosher salt', search_name: 'salt'},
+    {description: 'Freshly ground pepper', search_name: 'black pepper'},
+    {description: '2 tablespoons olive oil', search_name: 'olive oil'},
+    {description: '2 cups thinly sliced asparagus (from about 1 bunch)', search_name: 'asparagus'}
+    ],
+  directions: [
+    {description: 'Preheat oven to 400°.', time: 1, do_ahead: true},
+    {description: 'Slice asparagus', time: 4, do_ahead: true},
+    {description: 'Whisk eggs and egg whites in a medium bowl until frothy; mix in basil and season with salt and pepper.', time: 3, do_ahead: false},
+    {description: 'Heat oil in a medium ovenproof nonstick skillet over medium-high heat.', time: 2, do_ahead: false},
+    {description: 'Add asparagus and cook, tossing occasionally, until beginning to soften, about 2 minutes.', time: 2, do_ahead: false},
+    {description: 'Reduce heat to medium and add egg mixture, stirring to combine. Cook, shaking pan occasionally, until egg mixture is set around edges, about 4 minutes.', time: 4, do_ahead: false},
+    {description: 'Transfer skillet to oven and cook frittata until top is puffed and completely set, 10–15 minutes.', time: 15, do_ahead: false},
+    {description: 'Run a heatproof spatula around edge of pan to release frittata. Slide frittata onto a warmed plate and cut into wedges.', time: 4, do_ahead: false},
+    ]
+  },
+
+  {name: 'Roasted Cauliflower with Chipotle and Lime',
+  course: 'Side Dish',
+  servings: '2',
+  prep_time: 10,
+  cook_time: 90,
+  total_time: 100,
+  url: 'https://thehealthyfamilyandhome.com/roasted-cauliflower-with-chipotle-and-lime/?utm_campaign=yummly&utm_medium=yummly&utm_source=yummly',
+  ingredients: [
+    {description: '1 cauliflower', search_name: 'cauliflower'},
+    {description: '2 tablespoons 100% pure avocado oil', search_name: 'avocado oil'},
+    {description: '1/2 - 1 tablespoon ground chipotle powder', search_name: 'chipotle powder'},
+    {description: '1/4 - 1/2 teaspoon garlic powder', search_name: 'garlic powder'},
+    {description: '1/4 - 1/2 teaspoon Himalayan pink salt', search_name: 'salt'},
+    {description: '1 lime', search_name: 'lime'},
+    {description: 'fresh chopped cilantro', search_name: 'cilantro'}
+    ],
+  directions: [
+    {description: 'Preheat oven to 325 degrees.', time: 1, do_ahead: true},
+    {description: 'Add all the seasonings (ground chipotle, garlic powder, Himalayan pink salt) to a small bowl and stir until well combined. Set aside.', time: 2, do_ahead: true},
+    {description: 'Cut the cauliflower into small bite-sized pieces and add to a medium sized bowl.', time: 3, do_ahead: true},
+    {description: 'Drizzle the avocado oil over the cauliflower pieces and gently toss until the oil is evenly distributed and all the cauliflower pieces are covered.', time: 2, do_ahead: false},
+    {description: 'Sprinkle the seasoning mixture onto the cauliflower pieces and gently toss, making sure the seasoning is evenly distributed and covering all the cauliflower pieces.', time: 2, do_ahead: false},
+    {description: 'Transfer the seasoned cauliflower pieces to a baking pan lined with parchment paper and bake at 325 degrees for approximately 90 minutes, or until the cauliflower is soft on the inside and slightly crispy on the outside, tossing them halfway through.', time: 88, do_ahead: false},
+    {description: 'Remove from oven and squeeze the lime juice over the top of the cauliflower pieces.', time: 1, do_ahead: false},
+    {description: 'Garnish with fresh chopped cilantro.', time: 1, do_ahead: false},
+    ]
+  },
+
+  {name: 'Baked Parmesan Mushrooms',
+  course: 'Side Dish',
+  servings: '4',
+  prep_time: 10,
+  cook_time: 15,
+  total_time: 25,
+  url: 'https://www.yummly.com/#recipe/Baked-Parmesan-Mushrooms-2281417',
+  ingredients: [
+    {description: '1 1/2 pounds cremini mushrooms, thinly sliced', search_name: 'mushrooms'},
+    {description: '3 tablespoons olive oil', search_name: 'olive oil'},
+    {description: '1/4 cup freshly squeezed lemon juice and zest of one lemon', search_name: 'lemon'},
+    {description: '3 cloves garlic, minced', search_name: 'garlic'},
+    {description: '2 teaspoons dried thyme', search_name: 'thyme'},
+    {description: '1/4 cup grated Parmesan', search_name: 'parmesan'},
+    {description: 'Kosher salt', search_name: 'salt'},
+    {description: 'Freshly ground black pepper', search_name: 'black pepper'},
+    ],
+  directions: [
+    {description: 'Preheat oven to 375 degrees F.', time: 1, do_ahead: true},
+    {description: 'Slice mushrooms', time: 4, do_ahead: true},
+    {description: 'Lightly oil a baking sheet or coat with nonstick spray.', time: 1, do_ahead: true},
+    {description: 'Place mushrooms in a single layer onto the prepared baking sheet. Add olive oil, lemon juice, lemon zest, garlic, thyme and Parmesan; season with salt and pepper, to taste. Gently toss to combine.', time: 4, do_ahead: true},
+    {description: 'Place into oven and bake for 12-15 minutes, or until browned and tender, tossing occasionally. Serve immediately.', time: 15, do_ahead: false},
     ]
   }
 ]
