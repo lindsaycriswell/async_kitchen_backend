@@ -482,7 +482,7 @@ RECIPES = [
     {description: 'Sprinkle the seasoning mixture onto the cauliflower pieces and gently toss, making sure the seasoning is evenly distributed and covering all the cauliflower pieces.', time: 2, do_ahead: false},
     {description: 'Transfer the seasoned cauliflower pieces to a baking pan lined with parchment paper and bake at 325 degrees for approximately 90 minutes, or until the cauliflower is soft on the inside and slightly crispy on the outside, tossing them halfway through.', time: 88, do_ahead: false},
     {description: 'Remove from oven and squeeze the lime juice over the top of the cauliflower pieces.', time: 1, do_ahead: false},
-    {description: 'Garnish with fresh chopped cilantro.', time: 1, do_ahead: false},
+    {description: 'Garnish with fresh chopped cilantro.', time: 1, do_ahead: false}
     ]
   },
 
@@ -508,10 +508,10 @@ RECIPES = [
     {description: 'Slice mushrooms', time: 4, do_ahead: true},
     {description: 'Lightly oil a baking sheet or coat with nonstick spray.', time: 1, do_ahead: true},
     {description: 'Place mushrooms in a single layer onto the prepared baking sheet. Add olive oil, lemon juice, lemon zest, garlic, thyme and Parmesan; season with salt and pepper, to taste. Gently toss to combine.', time: 4, do_ahead: true},
-    {description: 'Place into oven and bake for 12-15 minutes, or until browned and tender, tossing occasionally. Serve immediately.', time: 15, do_ahead: false},
+    {description: 'Place into oven and bake for 12-15 minutes, or until browned and tender, tossing occasionally. Serve immediately.', time: 15, do_ahead: false}
     ]
   }
-
+]
 
 
 
