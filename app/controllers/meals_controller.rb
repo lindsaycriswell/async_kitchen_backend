@@ -22,6 +22,7 @@ class MealsController < ApplicationController
     render json: {message:"Meal deleted"}
   end
 
+# placeholder for current meal - update with meal ID
   def current
     @meal = Meal.last
     render json: @meal, status: 200
