@@ -27,6 +27,18 @@ class RecipesController < ApplicationController
     render json: @recipe, status: 200
   end
 
+  def display_recipes
+    # meal = Meal.last
+    recipes = []
+
+    Recipe.all.each do |recipe|
+      # figure out how to dedupe recipes
+      recipes << recipe.id
+    end
+
+    render json: recipes, status: 200
+  end
+
   private
   # def recipe_params
   #   params.permit(:id, :name, :course, :servings, :prep_time, :cook_time, :total_time, :url)
