@@ -27,6 +27,18 @@ class RecipesController < ApplicationController
     render json: @recipe, status: 200
   end
 
+  def display_recipes
+    recipes = []
+
+    Recipe.all.each do |recipe|
+      if !Meal.last.recipes.include?(recipe)
+        recipes << recipe
+      end
+    end
+
+    render json: recipes, status: 200
+  end
+
   private
   # def recipe_params
   #   params.permit(:id, :name, :course, :servings, :prep_time, :cook_time, :total_time, :url)
