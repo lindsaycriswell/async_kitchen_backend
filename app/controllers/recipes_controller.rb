@@ -28,12 +28,12 @@ class RecipesController < ApplicationController
   end
 
   def display_recipes
-    # meal = Meal.last
     recipes = []
 
     Recipe.all.each do |recipe|
-      # figure out how to dedupe recipes
-      recipes << recipe.id
+      if !Meal.last.recipes.include?(recipe)
+        recipes << recipe
+      end
     end
 
     render json: recipes, status: 200
