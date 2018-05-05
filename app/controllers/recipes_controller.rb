@@ -39,6 +39,12 @@ class RecipesController < ApplicationController
     render json: recipes, status: 200
   end
 
+  def current_meal_recipes
+    recipes = Meal.last.recipes
+
+    render json: recipes, status: 200
+  end
+
   private
   # def recipe_params
   #   params.permit(:id, :name, :course, :servings, :prep_time, :cook_time, :total_time, :url)

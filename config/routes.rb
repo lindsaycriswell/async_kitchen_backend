@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # placeholder for current meal - update with meal ID
   get "/current", to: "meals#current"
   get "/display_recipes", to: "recipes#display_recipes"
+  get "/current_meal_recipes", to: "recipes#current_meal_recipes"
   post "/meals/remove_recipe", to: "meals#remove_recipe"
 
 end
