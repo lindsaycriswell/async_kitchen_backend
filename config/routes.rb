@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # resources :users
-  resources :meals
+  resources :meals, only: [:create]
   resources :recipe_meals, only: [:index, :create, :update, :destroy]
   # resources :directions
   resources :ingredients, only: [:index]
